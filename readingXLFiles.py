@@ -1,8 +1,8 @@
 #reading a excel file and printing number of rows in the workbook and priting all columns in the workbook
 import openpyxl as xl
 
-#wb = xl.load_workbook("C:\\Users\\ajayp\\OneDrive\\Desktop\\Python\\student_data.xlsx") #reading Excel file
-wb = xl.load_workbook("C:\\Users\\d862757\\Downloads\\archive (2)\\student_data.xlsx") #reading Excel file
+wb = xl.load_workbook("C:\\Users\\path\\OneDrive\\Desktop\\Python\\student_data.xlsx") #reading Excel file
+
 print(wb.sheetnames) #to get names of all the sheets
 sheet1 = wb.worksheets[0] #first work sheet
 print(sheet1.max_row) #gives  row count
