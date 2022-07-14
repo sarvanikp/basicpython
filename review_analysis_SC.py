@@ -6,7 +6,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 
-reviews_input = pd.read_excel("C:\\Users\\ajayp\\OneDrive\\Desktop\\Python\\reviews_test.xlsx") #importing excel sheet using Pandas
+reviews_input = pd.read_excel("C:\\Users\\path\\OneDrive\\Desktop\\Python\\reviews_test.xlsx") #importing excel sheet using Pandas
 #print(type(reviews_input))
 
 reviews_input.drop_duplicates() # remove potential duplicate reviews.
